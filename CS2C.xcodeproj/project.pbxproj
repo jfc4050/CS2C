@@ -7,11 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0AE5BA41FD74F6B00EBCC5F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0AE5BA31FD74F6B00EBCC5F /* main.cpp */; };
+		D04107DD1FD8D32200E61229 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04107DC1FD8D32200E61229 /* main.cpp */; };
+		D04107E31FD8D32E00E61229 /* StarNearEarth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04107E11FD8D32E00E61229 /* StarNearEarth.cpp */; };
+		D04107E81FD8D4D000E61229 /* SNE_Analyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D04107E61FD8D4D000E61229 /* SNE_Analyzer.cpp */; };
+		D0AE5BB11FD74FB100EBCC5F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0AE5BB01FD74FB100EBCC5F /* main.cpp */; };
+		D0C6E8EA1FE04A0700D4B1AA /* EBookEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0C6E8DE1FE04A0600D4B1AA /* EBookEntry.cpp */; };
+		D0C6E8EB1FE04A0700D4B1AA /* iTunes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0C6E8E41FE04A0600D4B1AA /* iTunes.cpp */; };
+		D0C6E8EC1FE04A0700D4B1AA /* StarNearEarth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0C6E8E71FE04A0700D4B1AA /* StarNearEarth.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D04107D81FD8D32200E61229 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D0AE5B9E1FD74F6B00EBCC5F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D0AE5BAC1FD74FB100EBCC5F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +47,56 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D04107DA1FD8D32200E61229 /* 10 - Stars Near Earth */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10 - Stars Near Earth"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04107DC1FD8D32200E61229 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D04107E11FD8D32E00E61229 /* StarNearEarth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StarNearEarth.cpp; sourceTree = "<group>"; };
+		D04107E21FD8D32E00E61229 /* StarNearEarth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarNearEarth.h; sourceTree = "<group>"; };
+		D04107E61FD8D4D000E61229 /* SNE_Analyzer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SNE_Analyzer.cpp; sourceTree = "<group>"; };
+		D04107E71FD8D4D000E61229 /* SNE_Analyzer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNE_Analyzer.h; sourceTree = "<group>"; };
 		D0AE5BA01FD74F6B00EBCC5F /* CS2C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CS2C; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0AE5BA31FD74F6B00EBCC5F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D0AE5BAE1FD74FB100EBCC5F /* 9 - Maximum Flow Problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9 - Maximum Flow Problem"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AE5BB01FD74FB100EBCC5F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D0AE5BB51FD74FD300EBCC5F /* FlowGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowGraph.h; sourceTree = "<group>"; };
+		D0AE5BB61FD74FEF00EBCC5F /* FlowVertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowVertex.h; sourceTree = "<group>"; };
+		D0AE5BB71FD7500500EBCC5F /* FlowEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowEdge.h; sourceTree = "<group>"; };
+		D0C6E8D61FE04A0600D4B1AA /* FHvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHvector.h; path = "ADT Files/FHvector.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8D71FE04A0600D4B1AA /* FHthreadedBST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHthreadedBST.h; path = "ADT Files/FHthreadedBST.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8D81FE04A0600D4B1AA /* FHtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHtree.h; path = "ADT Files/FHtree.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8D91FE04A0600D4B1AA /* FHhashSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHhashSC.h; path = "ADT Files/FHhashSC.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8DA1FE04A0600D4B1AA /* FHavlTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHavlTree.h; path = "ADT Files/FHavlTree.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8DB1FE04A0600D4B1AA /* FHbinHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHbinHeap.h; path = "ADT Files/FHbinHeap.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8DC1FE04A0600D4B1AA /* FHlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHlist.h; path = "ADT Files/FHlist.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8DD1FE04A0600D4B1AA /* FHgraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHgraph.h; path = "ADT Files/FHgraph.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8DE1FE04A0600D4B1AA /* EBookEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EBookEntry.cpp; path = "ADT Files/EBookEntry.cpp"; sourceTree = SOURCE_ROOT; };
+		D0C6E8DF1FE04A0600D4B1AA /* EBookEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBookEntry.h; path = "ADT Files/EBookEntry.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8E01FE04A0600D4B1AA /* FHhashQP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHhashQP.h; path = "ADT Files/FHhashQP.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8E11FE04A0600D4B1AA /* FHsearch_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHsearch_tree.h; path = "ADT Files/FHsearch_tree.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8E21FE04A0600D4B1AA /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iTunes.h; path = "ADT Files/iTunes.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8E31FE04A0600D4B1AA /* FHsort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHsort.h; path = "ADT Files/FHsort.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8E41FE04A0600D4B1AA /* iTunes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = iTunes.cpp; path = "ADT Files/iTunes.cpp"; sourceTree = SOURCE_ROOT; };
+		D0C6E8E51FE04A0700D4B1AA /* FHkruskal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FHkruskal.h; path = "ADT Files/FHkruskal.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8E61FE04A0700D4B1AA /* Foothill_Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Foothill_Sort.h; path = "ADT Files/Foothill_Sort.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8E71FE04A0700D4B1AA /* StarNearEarth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StarNearEarth.cpp; path = "ADT Files/StarNearEarth.cpp"; sourceTree = SOURCE_ROOT; };
+		D0C6E8E81FE04A0700D4B1AA /* StarNearEarth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarNearEarth.h; path = "ADT Files/StarNearEarth.h"; sourceTree = SOURCE_ROOT; };
+		D0C6E8E91FE04A0700D4B1AA /* READ_ME_FH_INCLUDES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = READ_ME_FH_INCLUDES.txt; path = "ADT Files/READ_ME_FH_INCLUDES.txt"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D04107D71FD8D32200E61229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0AE5B9D1FD74F6B00EBCC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AE5BAB1FD74FB100EBCC5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,10 +106,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D04107DB1FD8D32200E61229 /* 10 - Stars Near Earth */ = {
+			isa = PBXGroup;
+			children = (
+				D04107E11FD8D32E00E61229 /* StarNearEarth.cpp */,
+				D04107E21FD8D32E00E61229 /* StarNearEarth.h */,
+				D04107DC1FD8D32200E61229 /* main.cpp */,
+				D04107E61FD8D4D000E61229 /* SNE_Analyzer.cpp */,
+				D04107E71FD8D4D000E61229 /* SNE_Analyzer.h */,
+			);
+			path = "10 - Stars Near Earth";
+			sourceTree = "<group>";
+		};
 		D0AE5B971FD74F6B00EBCC5F = {
 			isa = PBXGroup;
 			children = (
-				D0AE5BA21FD74F6B00EBCC5F /* CS2C */,
+				D0C6E8D51FE049D400D4B1AA /* ADT Files */,
+				D0AE5BAF1FD74FB100EBCC5F /* 9 - Maximum Flow Problem */,
+				D04107DB1FD8D32200E61229 /* 10 - Stars Near Earth */,
 				D0AE5BA11FD74F6B00EBCC5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,21 +132,71 @@
 			isa = PBXGroup;
 			children = (
 				D0AE5BA01FD74F6B00EBCC5F /* CS2C */,
+				D0AE5BAE1FD74FB100EBCC5F /* 9 - Maximum Flow Problem */,
+				D04107DA1FD8D32200E61229 /* 10 - Stars Near Earth */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0AE5BA21FD74F6B00EBCC5F /* CS2C */ = {
+		D0AE5BAF1FD74FB100EBCC5F /* 9 - Maximum Flow Problem */ = {
 			isa = PBXGroup;
 			children = (
-				D0AE5BA31FD74F6B00EBCC5F /* main.cpp */,
+				D0AE5BB01FD74FB100EBCC5F /* main.cpp */,
+				D0AE5BB51FD74FD300EBCC5F /* FlowGraph.h */,
+				D0AE5BB61FD74FEF00EBCC5F /* FlowVertex.h */,
+				D0AE5BB71FD7500500EBCC5F /* FlowEdge.h */,
 			);
-			path = CS2C;
+			path = "9 - Maximum Flow Problem";
+			sourceTree = "<group>";
+		};
+		D0C6E8D51FE049D400D4B1AA /* ADT Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C6E8DE1FE04A0600D4B1AA /* EBookEntry.cpp */,
+				D0C6E8DF1FE04A0600D4B1AA /* EBookEntry.h */,
+				D0C6E8DA1FE04A0600D4B1AA /* FHavlTree.h */,
+				D0C6E8DB1FE04A0600D4B1AA /* FHbinHeap.h */,
+				D0C6E8DD1FE04A0600D4B1AA /* FHgraph.h */,
+				D0C6E8E01FE04A0600D4B1AA /* FHhashQP.h */,
+				D0C6E8D91FE04A0600D4B1AA /* FHhashSC.h */,
+				D0C6E8E51FE04A0700D4B1AA /* FHkruskal.h */,
+				D0C6E8DC1FE04A0600D4B1AA /* FHlist.h */,
+				D0C6E8E11FE04A0600D4B1AA /* FHsearch_tree.h */,
+				D0C6E8E31FE04A0600D4B1AA /* FHsort.h */,
+				D0C6E8D71FE04A0600D4B1AA /* FHthreadedBST.h */,
+				D0C6E8D81FE04A0600D4B1AA /* FHtree.h */,
+				D0C6E8D61FE04A0600D4B1AA /* FHvector.h */,
+				D0C6E8E61FE04A0700D4B1AA /* Foothill_Sort.h */,
+				D0C6E8E41FE04A0600D4B1AA /* iTunes.cpp */,
+				D0C6E8E21FE04A0600D4B1AA /* iTunes.h */,
+				D0C6E8E91FE04A0700D4B1AA /* READ_ME_FH_INCLUDES.txt */,
+				D0C6E8E71FE04A0700D4B1AA /* StarNearEarth.cpp */,
+				D0C6E8E81FE04A0700D4B1AA /* StarNearEarth.h */,
+			);
+			name = "ADT Files";
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D04107D91FD8D32200E61229 /* 10 - Stars Near Earth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04107DE1FD8D32200E61229 /* Build configuration list for PBXNativeTarget "10 - Stars Near Earth" */;
+			buildPhases = (
+				D04107D61FD8D32200E61229 /* Sources */,
+				D04107D71FD8D32200E61229 /* Frameworks */,
+				D04107D81FD8D32200E61229 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10 - Stars Near Earth";
+			productName = "10 - Stars Near Earth";
+			productReference = D04107DA1FD8D32200E61229 /* 10 - Stars Near Earth */;
+			productType = "com.apple.product-type.tool";
+		};
 		D0AE5B9F1FD74F6B00EBCC5F /* CS2C */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0AE5BA71FD74F6B00EBCC5F /* Build configuration list for PBXNativeTarget "CS2C" */;
@@ -82,6 +214,23 @@
 			productReference = D0AE5BA01FD74F6B00EBCC5F /* CS2C */;
 			productType = "com.apple.product-type.tool";
 		};
+		D0AE5BAD1FD74FB100EBCC5F /* 9 - Maximum Flow Problem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AE5BB21FD74FB100EBCC5F /* Build configuration list for PBXNativeTarget "9 - Maximum Flow Problem" */;
+			buildPhases = (
+				D0AE5BAA1FD74FB100EBCC5F /* Sources */,
+				D0AE5BAB1FD74FB100EBCC5F /* Frameworks */,
+				D0AE5BAC1FD74FB100EBCC5F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9 - Maximum Flow Problem";
+			productName = "9 - Maximum Flow Problem";
+			productReference = D0AE5BAE1FD74FB100EBCC5F /* 9 - Maximum Flow Problem */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -91,7 +240,15 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Justin Chiu";
 				TargetAttributes = {
+					D04107D91FD8D32200E61229 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					D0AE5B9F1FD74F6B00EBCC5F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D0AE5BAD1FD74FB100EBCC5F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,22 +267,60 @@
 			projectRoot = "";
 			targets = (
 				D0AE5B9F1FD74F6B00EBCC5F /* CS2C */,
+				D0AE5BAD1FD74FB100EBCC5F /* 9 - Maximum Flow Problem */,
+				D04107D91FD8D32200E61229 /* 10 - Stars Near Earth */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D04107D61FD8D32200E61229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04107E31FD8D32E00E61229 /* StarNearEarth.cpp in Sources */,
+				D04107E81FD8D4D000E61229 /* SNE_Analyzer.cpp in Sources */,
+				D04107DD1FD8D32200E61229 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0AE5B9C1FD74F6B00EBCC5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0AE5BA41FD74F6B00EBCC5F /* main.cpp in Sources */,
+				D0C6E8EA1FE04A0700D4B1AA /* EBookEntry.cpp in Sources */,
+				D0C6E8EC1FE04A0700D4B1AA /* StarNearEarth.cpp in Sources */,
+				D0C6E8EB1FE04A0700D4B1AA /* iTunes.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AE5BAA1FD74FB100EBCC5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AE5BB11FD74FB100EBCC5F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D04107DF1FD8D32200E61229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D04107E01FD8D32200E61229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D0AE5BA51FD74F6B00EBCC5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -245,9 +440,48 @@
 			};
 			name = Release;
 		};
+		D0AE5BB31FD74FB100EBCC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				NEW_SETTING = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0AE5BB41FD74FB100EBCC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				NEW_SETTING = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D04107DE1FD8D32200E61229 /* Build configuration list for PBXNativeTarget "10 - Stars Near Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04107DF1FD8D32200E61229 /* Debug */,
+				D04107E01FD8D32200E61229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D0AE5B9B1FD74F6B00EBCC5F /* Build configuration list for PBXProject "CS2C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -262,6 +496,15 @@
 			buildConfigurations = (
 				D0AE5BA81FD74F6B00EBCC5F /* Debug */,
 				D0AE5BA91FD74F6B00EBCC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AE5BB21FD74FB100EBCC5F /* Build configuration list for PBXNativeTarget "9 - Maximum Flow Problem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AE5BB31FD74FB100EBCC5F /* Debug */,
+				D0AE5BB41FD74FB100EBCC5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
