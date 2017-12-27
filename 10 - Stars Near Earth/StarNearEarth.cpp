@@ -392,3 +392,5 @@ bool StarNearEarth::operator!=(const StarNearEarth &other) const
 {
    return !(other == *this);
 }
+
+//a
